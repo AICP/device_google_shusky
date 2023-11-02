@@ -25,6 +25,11 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 # WiFi
 include $(DEVICE_PATH)/wifi/BoardConfig-wifi.mk
 
+
+# Display
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/permissions/permissions_com.android.pixeldisplayservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/permissions_com.android.pixeldisplayservice.xml
+
 # Reserve Space
 include vendor/aicp/config/BoardConfigReservedSize.mk
 
