@@ -5,16 +5,6 @@
     "branch":      "lineage-23.2"
   },
   {
-    "repository":  "LineageOS/android_device_google_husky",
-    "target_path": "device/google/husky",
-    "branch":      "lineage-23.2"
-  },
-  {
-    "repository":  "LineageOS/android_device_google_shiba",
-    "target_path": "device/google/shiba",
-    "branch":      "lineage-23.2"
-  },
-  {
     "repository":  "LineageOS/android_device_google_gs-common",
     "target_path": "device/google/gs-common",
     "branch":      "lineage-23.2"
