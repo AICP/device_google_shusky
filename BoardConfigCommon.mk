@@ -27,3 +27,7 @@ include $(DEVICE_PATH)/wifi/BoardConfig-wifi.mk
 
 # Reserve Space
 include vendor/aicp/config/BoardConfigReservedSize.mk
+
+# PixelParts
+# PixelParts
+include packages/apps/PixelParts/device.mk
