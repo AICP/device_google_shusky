@@ -32,3 +32,7 @@ PRODUCT_COPY_FILES += \
 
 # Reserve Space
 include vendor/aicp/config/BoardConfigReservedSize.mk
+
+# PixelParts
+# PixelParts
+include packages/apps/PixelParts/device.mk
